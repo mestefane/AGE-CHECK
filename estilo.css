@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap');
+
+
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-image: url(fundo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 40px 20px;
+    min-height: 100vh;
+    text-align: center;
+}
+
+header h1{  
+    
+    margin-bottom: 0;
+}
+header p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h2{
+    color: #ec4899;
+}
+
+
+section{
+    font-family: 'Fredoka', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#dados,#res {
+    
+    background-color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 30px;
+    padding-top: 50px;
+    width: 350px;
+    height: 400px;      
+    flex-shrink: 0;
+    overflow: auto;
+}
+
+
+
+
+footer{
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+   
