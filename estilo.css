@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap');
 
-
-
 body{
     font-family: 'Quicksand', sans-serif;
     background-image: url(fundo.png);
@@ -15,10 +13,10 @@ body{
     min-height: 100vh;
     text-align: center;
 }
-
+/*TITULO*/
 header h1{  
-    
     margin-bottom: 0;
+    font-size: 50px;
 }
 header p {
     margin-top: 0;
@@ -26,8 +24,8 @@ header p {
 }
 h2{
     color: #ec4899;
+    font-size: 40px;
 }
-
 
 section{
     font-family: 'Fredoka', sans-serif;
@@ -40,22 +38,84 @@ section{
     padding: 20px;
 }
 
-#dados,#res {
+#dados,#res{
     
     background-color: #fff;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 200;
     border-radius: 20px;
     padding: 30px;
     padding-top: 50px;
-    width: 350px;
-    height: 400px;      
+    width: 370px;
+    height: 500px;    
     flex-shrink: 0;
-    overflow: auto;
+    overflow: visible;
+}
+#txtano{
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-family: inherit;
+    border: 2px solid #f3c6de;
+    border-radius: 12px;
+    outline: none;
+    transition: border-color  0.2s ease;
+    box-sizing: border-box;
+    }
+
+#txtano:focus{
+    border-color: #ec4899;
+    box-shadow:  0 0 0 3px  rgba(236,2,  153,0.15);
+}
+.txtidade{
+   color: #ec4899;
+   font-size: 35px;
+   margin-bottom:4px;
+}
+.txtcat{
+    display: inline-block;
+    background-color: #fce4ef;
+    color: #99014d;
+    border: 2px solid #f6b8d4;
+    border-radius:50px;
+    padding: 10px 30px;
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 4px;
 }
 
+/* Estilo para o botão */
+.btn-verificar {
+  /* resetedo do estilo propio do inputs aplicado pelo navegador */
+  appearance: none;
+  font-family: inherit;
 
 
+  width: 100%;
+  padding: 20px 24px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background: linear-gradient(90deg, #ff4d94, #b3266e);
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  box-shadow: 0 4px 14px rgba(179, 38, 110, 0.4);
 
+  /* Transição  suave da animação */
+  transition: all 0.3s ease;
+}
+
+.btn-verificar:hover {
+  box-shadow: 0 0 0 6px rgba(255, 77, 148, 0.18), 0 8px 20px rgba(179, 38, 110, 0.5);
+  transform: scale(1.03);
+}
+
+.btn-verificar:active {
+  transform: scale(0.96);
+}
 footer{
     text-align: center;
     font-style: italic;
