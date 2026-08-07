@@ -47,6 +47,7 @@ section{
     padding: 30px;
     padding-top: 50px;
     width: 370px;
+    max-width: 100%;
     height: 500px;    
     flex-shrink: 0;
     overflow: visible;
@@ -122,4 +123,22 @@ footer{
     margin-top: 20px;
     padding-bottom: 30px;
 }
+
+@media (max-width: 768px){
+    section{
+        flex-direction: column;
+        align-items: center;
+    } 
+    #dados,   #res{
+        width: 90%
+        height: auto;
+    }    
+    header h1{
+        font-size: 28px;
+
+    }
+        
+
+}
+    
    
