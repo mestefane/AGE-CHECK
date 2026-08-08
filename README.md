@@ -8,7 +8,7 @@ Um verificador de idade simples e interativo, feito com HTML, CSS e JavaScript p
 
 ## Preview
 
-![Preview do Age Check](preview.png)
+![Preview do Age Check](assets/preview.png)
 
 ## Funcionalidades
 
@@ -40,4 +40,4 @@ Um verificador de idade simples e interativo, feito com HTML, CSS e JavaScript p
 
 Desenvolvido por **M. Estefane**
 
-Desenvolvido por **M. Estefane**
+
